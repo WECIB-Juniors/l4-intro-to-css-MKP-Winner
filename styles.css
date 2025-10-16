@@ -1,14 +1,85 @@
-/* This is your CSS file */
-/* Comments look like this. */
-
-/* This ruleset defines the styling for the entire body of your HTML document. */
+/* General body styling */
 body {
-    /* Change this background-color. */
-    background-color: white;
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-/* This defines styling for all your p elements */
+/* Header */
+header {
+  background-color: navy;
+  color: white;
+  padding: 20px;
+}
 
-p {
+h1 {
+  color: #FFD700; /* gold */
+  font-size: 2.5em;
+}
 
+h2 {
+  color: #FF4500; /* orange-red */
+  margin-bottom: 10px;
+}
+
+/* Navigation links */
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section styles */
+section {
+  margin: 30px auto;
+  padding: 20px;
+  width: 80%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px gray;
+}
+
+img {
+  width: 150px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+/* Button styling */
+button {
+  background-color: #FF4500;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e03e00;
+}
+
+/* Footer styling */
+footer {
+  background-color: navy;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+footer a {
+  color: #FFD700;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
